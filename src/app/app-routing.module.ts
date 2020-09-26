@@ -19,7 +19,7 @@ const routes: Routes = [ {
   path: 'pages',
   component: PagesComponent,
   children: [
-      { path: '', redirectTo: 'Dashboard', pathMatch: 'full' },
+      { path: '', redirectTo: '/ManagePrograms', pathMatch: 'full' },
       {
           path: 'Dashboard',
           component: DashboardComponent
@@ -27,7 +27,7 @@ const routes: Routes = [ {
       {
         path: 'ManagePrograms',
         component: ManageProgramsComponent
-      },
+      }, 
       {
         path: 'AddNewPrograms',
         component: AddNewProgramComponent

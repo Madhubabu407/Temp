@@ -1,0 +1,23 @@
+.ManageProgramsBtn{
+    padding: 10px 20px;
+}
+.AddProgramContainer{
+    border:1px solid lightgray;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.heading{
+    text-align: center;
+}
+.AddProgramContainer h3{
+    text-align: center;
+    margin-top: 0px;
+    display: -webkit-inline-box;
+    border-bottom: 2px solid #e4e4e4;
+}
+.AddProgramBtnsContainer{
+    text-align: right;
+}
+.AddProgramBtnsContainer .btn{
+    margin-left: 10px;
+}

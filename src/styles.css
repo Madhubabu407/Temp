@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 .BtnsContainer{
     text-align: right;
+    margin-bottom: 5px;
 }
 .row{
     margin-left: 0px;
